@@ -1,0 +1,66 @@
+// models/country.dart
+
+/// Represents a country option in the dropdown.
+class Country {
+  final String name;
+
+  const Country({required this.name});
+}
+
+/// Full list of African countries.
+const List<Country> africanCountries = [
+  Country(name: 'Algeria'),
+  Country(name: 'Angola'),
+  Country(name: 'Benin'),
+  Country(name: 'Botswana'),
+  Country(name: 'Burkina Faso'),
+  Country(name: 'Burundi'),
+  Country(name: 'Cabo Verde'),
+  Country(name: 'Cameroon'),
+  Country(name: 'Central African Republic'),
+  Country(name: 'Chad'),
+  Country(name: 'Comoros'),
+  Country(name: 'DR Congo'),
+  Country(name: 'Republic of the Congo'),
+  Country(name: 'Djibouti'),
+  Country(name: 'Egypt'),
+  Country(name: 'Equatorial Guinea'),
+  Country(name: 'Eritrea'),
+  Country(name: 'Eswatini'),
+  Country(name: 'Ethiopia'),
+  Country(name: 'Gabon'),
+  Country(name: 'Gambia'),
+  Country(name: 'Ghana'),
+  Country(name: 'Guinea'),
+  Country(name: 'Guinea-Bissau'),
+  Country(name: 'Ivory Coast'),
+  Country(name: 'Kenya'),
+  Country(name: 'Lesotho'),
+  Country(name: 'Liberia'),
+  Country(name: 'Libya'),
+  Country(name: 'Madagascar'),
+  Country(name: 'Malawi'),
+  Country(name: 'Mali'),
+  Country(name: 'Mauritania'),
+  Country(name: 'Mauritius'),
+  Country(name: 'Morocco'),
+  Country(name: 'Mozambique'),
+  Country(name: 'Namibia'),
+  Country(name: 'Niger'),
+  Country(name: 'Nigeria'),
+  Country(name: 'Rwanda'),
+  Country(name: 'São Tomé and Príncipe'),
+  Country(name: 'Senegal'),
+  Country(name: 'Seychelles'),
+  Country(name: 'Sierra Leone'),
+  Country(name: 'Somalia'),
+  Country(name: 'South Africa'),
+  Country(name: 'South Sudan'),
+  Country(name: 'Sudan'),
+  Country(name: 'Tanzania'),
+  Country(name: 'Togo'),
+  Country(name: 'Tunisia'),
+  Country(name: 'Uganda'),
+  Country(name: 'Zambia'),
+  Country(name: 'Zimbabwe'),
+];
